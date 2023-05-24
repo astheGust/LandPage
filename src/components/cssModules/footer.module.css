@@ -1,0 +1,42 @@
+footer{width:100%;min-width:900px;height:auto;background-color:#112;}
+footer section {display:flex;
+    padding-top:20px;
+    width:auto;height:14vh;
+    background-color:#112;;
+    }
+
+footer h2{margin:0 40px;font-size:2rem;font-family:monospace;}
+footer ul{display:flex;list-style: none;}
+
+footer section ul li{margin:10px 30px;font-family:monospace;font-size: 1.3rem;}
+footer section ul li{text-decoration:none;color:#bbbbbb;}
+
+footer section ul li:hover{animation:animation1 2s linear 0s infinite normal;}
+
+footer #icons{
+    display:flex;justify-content:center;
+    height:16vh;
+    border-top:2px solid white;
+    padding-top:20px;
+    width:70%;
+    margin:auto;
+}
+
+
+#icons li{margin:0 5px;font-size:2.5rem;}
+
+#gitHub{color:#aaaaaa;transition:color .2s ease-in-out;}
+#gitHub:hover{color:white;}
+
+#linkedin{color:blue;transition:color .2s ease-in-out;}
+#linkedin:hover{color:lightblue}
+
+@keyframes animation1{
+    25%{color:black}
+    50%{color:white}
+    75%{color:black}
+    100%{color:white}
+}
+
+
+

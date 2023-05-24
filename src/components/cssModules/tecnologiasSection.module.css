@@ -1,0 +1,137 @@
+#conhecimentos{
+    width:80%;height:60vh;
+}
+.sectionProjetos{
+    display:flex;justify-content:space-evenly;
+    margin:10px auto;
+    width:100%;height:50%;
+    backdrop-filter: blur(5px);
+    border:4px ridge #8B008B;;
+    border-radius:20px;}
+
+.projeto{
+    background-image:url("././imgs/calculadora.png");;
+    height:90%;width:16%;
+    position:relative;
+    border-radius:0 0 40px 40px;
+}
+
+.sphere{
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    width:120px;height:120px;
+    border-radius:50%;
+    overflow:hidden;
+    position:absolute;
+    top:-80px;
+    left:50%;
+    transform:translateX(-50%);
+}
+.box{text-align: center;}
+
+.box h3{margin-top:25%;font-size:1.4rem;width:auto;}
+
+.box p{
+    display:flex;align-items: center;
+    margin:5px auto 0 auto;width:100%;height:140px;
+    overflow: hidden;
+    border:2px ridge #4B0082;
+    border-radius:0 0 20px 20px;}
+
+.divLinguagens{display:flex;justify-content:space-around;width:100%;height:50%;}
+#conhecimentos svg{font-size:5rem;}
+
+#react{
+    margin-top:20px;
+    color:blue;
+    animation:iconReact 4s infinite 0s linear forwards;}
+#react:hover{animation:iconReact 2s infinite 0s linear forwards;}
+@keyframes iconReact{
+    25%{color:lightblue;transform: rotate(90deg);}
+    50%{color:blue;transform: rotate(180deg);}
+    75%{color:lightblue;transform: rotate(270deg);}
+    100%{color:blue;transform: rotate(360deg);}
+}
+
+#js{
+    margin-top:20px;
+    color:yellow;
+    animation:iconJs 4s infinite 0s linear forwards;}
+#js:hover{animation:iconJs 2s infinite 0s linear forwards;}
+@keyframes iconJs{
+    25%{color:lightyellow}
+    50%{color:yellow}
+    75%{color:lightyellow}
+    100%{color:yellow}
+}
+
+#css{
+    margin-top:20px;
+    color:blue;
+    animation:iconBlue 4s infinite 0s linear forwards;}
+#css:hover{animation:iconCss 2s infinite 0s linear forwards;}
+@keyframes iconCss{
+    25%{color:lightskyblue}
+    50%{color:darkblue}
+    75%{color:lightskyblue}
+    100%{color:darkblue}
+}
+
+#html{
+    margin-top:20px;
+    color:orange;
+    animation:iconHtml 4s infinite 0s linear forwards;}
+#html:hover{animation:iconHtml 2s infinite 0s linear forwards;}
+@keyframes iconHtml{
+    25%{color:orangered}
+    50%{color:orange}
+    75%{color:orangered}
+    100%{color:orange}
+}
+
+#word{
+    margin-top:20px;
+    color:darkslateblue;
+    animation:iconWord 4s infinite 0s linear forwards;}
+#word:hover{animation:iconWord 2s infinite 0s linear forwards;}
+@keyframes iconWord{
+    25%{color:darkslateblue}
+    50%{color:blue}
+    75%{color:darkslateblue}
+    100%{color:blue}
+}
+
+#excel{
+    margin-top:20px;
+    color:orange;
+    animation:iconExcel 4s infinite 0s linear forwards;}
+#excel:hover{animation:iconExcel 2s infinite 0s linear forwards;}
+@keyframes iconExcel{
+    25%{color:greenyellow}
+    50%{color:green}
+    75%{color:greenyellow}
+    100%{color:green}
+}
+
+#powerPoint{
+    margin-top:20px;
+    color:red;
+    animation:iconPowerPoint 4s infinite 0s linear forwards;}
+#powerPoint:hover{animation:iconPowerPoint 2s infinite 0s linear forwards;}
+@keyframes iconPowerPoint{
+    25%{color:darkred}
+    50%{color:red}
+    75%{color:orangered}
+    100%{color:darkred}
+}
+
+
+@media only screen and (max-width:1300px){
+    .sphere{width:100px;height:100px;}
+    #conhecimentos{
+     height:70vh;
+    }
+
+}
+

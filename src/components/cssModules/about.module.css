@@ -1,0 +1,21 @@
+#containerAbout{
+    width:100%;height:94vh;
+    display:flex;align-items: center;justify-content: center;
+
+}
+
+#containerAbout section{
+    min-width:600px;width:60%;min-height:400px;height:50%;
+    border:2px solid black;
+    border-radius:40px;
+    backdrop-filter: blur(5px);
+    position:relative;
+}
+#containerAbout section h2{text-align: center;margin:15px 0;color:#111}
+
+#containerAbout section p{font-size:1.4rem;text-indent:40px;margin:0 20px;}
+
+#containerAbout div{
+    font-size:1.8rem;
+    width:300px;
+    position:absolute;bottom:20px;left:94%;transform:translate(-94%);font-family:'Playfair Display', serif;}
