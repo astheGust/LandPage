@@ -11,5 +11,4 @@ export default function Projeto({title,urlImg,text,urlSite}){
             </div>
         </section>
     )
-//pokemonbattle.great-site.net
 }
