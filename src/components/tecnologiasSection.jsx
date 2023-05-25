@@ -4,16 +4,22 @@ import { FaReact } from "react-icons/fa";
 import {TbBrandJavascript,TbBrandHtml5,TbBrandCss3} from "react-icons/tb"
 import {SiMicrosoftexcel,SiMicrosoftword,SiMicrosoftpowerpoint} from "react-icons/si"
 export default function Tecnologias(){
-
     return(
         <article id={styles.conhecimentos}>
             <section className={styles.sectionProjetos}>
-                <Projeto title="Relógio" img="https://i.pinimg.com/474x/cf/9d/8f/cf9d8fa92e49cc73f6f9e2fbdb5083cc.jpg"
+
+                <Projeto urlSite='http://relogiohtmlcssjs.epizy.com'
+                title="Relógio" urlImg="https://i.pinimg.com/474x/cf/9d/8f/cf9d8fa92e49cc73f6f9e2fbdb5083cc.jpg"
                 text="Relógio simples feito com html scss e lógica em javascript"/>
-                <Projeto title="Batalha Pokemon" img="https://i.pinimg.com/736x/cd/57/fe/cd57fe942cfdfa87ae36e29a32472b51.jpg"
+
+                <Projeto urlSite='http://pokemonbattle.great-site.net'
+                title="Batalha Pokemon" urlImg="https://i.pinimg.com/736x/cd/57/fe/cd57fe942cfdfa87ae36e29a32472b51.jpg"
                 text="um dos meus primeiros projetos, uma batalha pokemon em html css e javascript"/>
-                <Projeto title="Calculadora" img="https://i.pinimg.com/474x/5a/8a/32/5a8a32b63f2827dc4acfc8904bcc7ae3.jpg"
+
+                <Projeto urlSite='http://calculadorajs.great-site.net'
+                title="Calculadora" urlImg="https://i.pinimg.com/474x/5a/8a/32/5a8a32b63f2827dc4acfc8904bcc7ae3.jpg"
                 text="Calculadora com html scss e javascript"/>
+
             </section>
             <section style={{display:"block"}} className={styles.sectionProjetos}>
                 <div className={styles.divLinguagens}>
