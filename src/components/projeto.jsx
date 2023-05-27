@@ -6,7 +6,7 @@ export default function Projeto({title,urlImg,text,urlSite}){
             style={{backgroundImage:`url(${urlImg})`}}>
             </div>
             <div className={styles.box}>
-                <h3><a href={`${urlSite}`}>{title}</a></h3>
+                <h3><a target="_blank" href={`${urlSite}`}>{title}</a></h3>
                 <p>{text}</p>
             </div>
         </section>
