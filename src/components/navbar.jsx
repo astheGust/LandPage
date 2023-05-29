@@ -47,8 +47,8 @@ export default function Navbar(){
             </ul>
             { visible ? (<h1>PortFólio</h1>):<h1>Tecnologias</h1>}
             {visible ? (<div>
-                <a href="https://github.com/astheGust"><FaGithub id={styles.gitHub} className={styles.logos}/></a>
-                <a href="https://www.linkedin.com/in/gustavo-costa-563145208/"><FaLinkedin id={styles.linkedin} className={styles.logos}/></a>
+                <a target="_blank" href="https://github.com/astheGust"><FaGithub id={styles.gitHub} className={styles.logos}/></a>
+                <a target="_blank" href="https://www.linkedin.com/in/gustavo-costa-563145208/"><FaLinkedin id={styles.linkedin} className={styles.logos}/></a>
             </div>):<div></div>}
         </nav>
     )
