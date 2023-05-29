@@ -12,7 +12,7 @@ export default function Tecnologias(){
                 title="Relógio" urlImg="https://i.pinimg.com/474x/cf/9d/8f/cf9d8fa92e49cc73f6f9e2fbdb5083cc.jpg"
                 text="Relógio simples feito com html scss e lógica em javascript"/>
 
-                <Projeto urlSite='http://pokemonbattle.great-site.net'
+                <Projeto urlSite='https://batalhapokemon.netlify.app'
                 title="Batalha Pokemon" urlImg="https://i.pinimg.com/736x/cd/57/fe/cd57fe942cfdfa87ae36e29a32472b51.jpg"
                 text="um dos meus primeiros projetos, uma batalha pokemon em html css e javascript"/>
 
