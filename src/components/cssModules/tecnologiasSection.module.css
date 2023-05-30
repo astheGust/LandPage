@@ -70,7 +70,7 @@
 #css{
     margin-top:20px;
     color:blue;
-    animation:iconBlue 4s infinite 0s linear forwards;}
+    animation:iconCss 4s infinite 0s linear forwards;}
 #css:hover{animation:iconCss 2s infinite 0s linear forwards;}
 @keyframes iconCss{
     25%{color:lightskyblue}
